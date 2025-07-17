@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background: linear-gradient(320deg,  #fcffec, #bdf1c2, #c7d7f9);
+    box-shadow: 0 3px 30px rgba(35, 35, 35, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid;
+    border-radius: 10px;
+    margin: 10vw 10vh;
+    padding: 1rem;
+}
+
+#Bot {
+    width: 300px;
+    font-size: 100px;
+    padding: 1rem;
+    margin: 1rem;
+    overflow: auto;
+}
+
+#User {
+    font-size: 100px;
+    width: 300px;
+    padding: 1rem;
+    margin: 1rem;
+    overflow: auto;
+}
+
+#salida{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#btn {
+    display: flex;
+    width: 200px;
+    margin: 50px;
+}
+
+.op1 {
+    padding: 20px;
+    background-color: #c7d7f9;
+    font-size: medium;
+    border: 1.5px solid;
+    border-radius: 10px
+}
+.op2 {
+    padding: 20px;
+    background-color: #c7d7f9;
+    font-size: medium;
+    border: 1.5px solid;
+    border-radius: 10px
+}
+.op3 {
+    padding: 20px;
+    background-color: #c7d7f9;
+    font-size: medium;
+    border: 1.5px solid;
+    border-radius: 10px
+}
+
+.op1:hover {
+    cursor: pointer;
+    background-color: #d7e3fd;
+    color: dimgrey;
+}
+.op2:hover {
+    cursor: pointer;
+    background-color: #d7e3fd;
+    color: dimgrey;
+}
+.op3:hover {
+    cursor: pointer;
+    background-color: #d7e3fd;
+    color: dimgrey;
+}
+
+.op1:active {
+    background-color: #c2c2c2;
+    color: rgb(52, 52, 52);
+}
+.op2:active {
+    background-color: #c2c2c2;
+    color: rgb(52, 52, 52);
+}
+.op3:active {
+    background-color: #c2c2c2;
+    color: rgb(52, 52, 52);
+}
+
+
+
